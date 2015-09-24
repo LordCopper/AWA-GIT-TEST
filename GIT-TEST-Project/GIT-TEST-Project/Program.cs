@@ -10,6 +10,10 @@ namespace GIT_TEST_Project
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Welcome to the awsome Git Test preview!");
+            Console.WriteLine("Press any key to continue.");
+            Console.ReadKey();
+            Console.WriteLine("Good, now you can exit the application, good bye.");
             /* DETTA ÄR EN JÄTTE VIKTIG TEXT LORUM IPSUM LORUM IPSUM LORUM IPSUM LORUM IPSUM LORUM IPSUM
              LORUM IPSUM LORUM IPSUM LORUM IPSUM LORUM IPSUM LORUM IPSUM LORUM IPSUM LORUM IPSUM
               LORUM IPSUM LORUM IPSUM LORUM IPSUM LORUM IPSUM LORUM IPSUM LORUM IPSUM LORUM IPSUM
@@ -25,7 +29,7 @@ namespace GIT_TEST_Project
             Console.ReadLine();
             Car danielsBil = new Car();
         }
-    }
+        }
 
     class Car
     {
