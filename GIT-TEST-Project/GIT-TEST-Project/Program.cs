@@ -21,8 +21,14 @@ namespace GIT_TEST_Project
                     LORUM IPSUM LORUM IPSUM LORUM IPSUM LORUM IPSUM LORUM IPSUM LORUM IPSUM
                      LORUM IPSUM LORUM IPSUM LORUM IPSUM LORUM IPSUM*/
 
-            Console.WriteLine("WOHOO ITS A WORKING");
+            
             Console.ReadLine();
+            Car danielsBil = new Car();
         }
+    }
+
+    class Car
+    {
+        public int age { get; set; } = 4;
     }
 }
