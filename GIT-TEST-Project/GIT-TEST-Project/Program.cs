@@ -10,6 +10,12 @@ namespace GIT_TEST_Project
     {
         static void Main(string[] args)
         {
+            Car danielsBil = new Car();
         }
+    }
+
+    class Car
+    {
+        public int age { get; set; } = 4;
     }
 }
